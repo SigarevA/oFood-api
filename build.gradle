@@ -4,9 +4,16 @@ plugins {
 	id 'java'
 }
 
+
 group = 'ru.vsu.ofoodApi'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
 
 repositories {
 	mavenCentral()
@@ -15,8 +22,19 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-mongodb-reactive'
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	def jwtJoseVersion = '8.16'
+	implementation "com.nimbusds:nimbus-jose-jwt:$jwtJoseVersion"
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'org.springframework.security:spring-security-oauth2-resource-server'
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+	implementation 'com.google.firebase:firebase-admin:7.3.0'
+	testImplementation('org.springframework.boot:spring-boot-starter-test') {
+		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+	}
 	testImplementation 'io.projectreactor:reactor-test'
+	implementation platform('com.google.cloud:libraries-bom:16.3.0')
+	compile 'com.google.cloud:google-cloud-storage'
 }
 
 test {

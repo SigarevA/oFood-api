@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ofood-314711",
+  "private_key_id": "c34f3cc089118b0904d07c663b111020b733618e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCsfnBcy96uBvwW\nmHSx7EYT1CRca7T21lkcSUtv6youuF7NG3MXAHq2hBvF8PPOqTgZesvoK9hNXcCX\nO7ipaMqsJjRPjDzsf+i4ZtvU4XKe56YWJiDXPaN/5HnAZntFybIb0hJhuRi3DVwu\nwqDTYt2r6LD5JkBswpadwfoBvxfBFarv4kuU5dZMr9AwEzMbMgk/voIMX3JRRt+G\nmEIiewcaAHg4nH9xn3rujg2vTkv/iWW3iCMibAprmy/pkrnpnEpm2yNVS6g21p3j\njTnDq2ebBDn0Nyj+ZpHS6jGo3oKrRWw0h4Kjz12mAqZM0jaIzdXtNA1KLm55TOtl\nMmBr7s33AgMBAAECggEADwuhmLEo8Cb9z/67lv/+hiDn4a58r1cM7hGv5HLaUA7s\nKJnEqnSelNLlv+3Uu5Q4/Mf1hypj3dkClm5dcgazlDEU46deHQbJxrkkuDxzN0xf\nST6ezgdl/nQa8TQ/JlwsY+QpOaA1I/+kqGjOMaya8dwEVlxcHDXGK2Z4UbStnr1f\nU3+e4jf2sKT/HMUPJ5iiGWCc+r5CyL6TXJDb/vCHyawKs8mgjX0+rHrw1YCd5t19\nnZ93L6SD+Ju+099xG4OHmF8Ko0KkJI+ytWqYsgWrTAbGZjWAVkMgmjuaRkqwlVug\nspasY+yauioCMZOkhE+mj8tFG3DV/13cgOfsbbqLiQKBgQDih9TtyChE9PyRy8UK\npSaOofYj6fASvksULpNTn/3/OVStxHPCcZguCUWRTq81CI/zyPCb9aPopOefnRoe\n7MCFDqJXopknHjKZIB6aiVH92rDriBIgiW+7wzz8cafuzrjvhURZu/deGiBLWctt\n7QCi7I7VXw99mgn2omhGTnMlvQKBgQDC7wS8YDDnyww9hYMrs3QA4M6qkJPwLmmd\nX81BR4tIxoKLAKWFX4v86KyULsG4LikWrBG1CzUIsQ25XiYRyV+JCj1J4rzrv2S2\nPLGCX9EuUlkFBbLHlyiJmVF/Wk97qT8sKxaZx3rocsHe8jpLwMVLCBZJk4an5SJy\n4gePesi7wwKBgBTcM0RuQR8QfE2kuRFg4esSiQsHmN7w/RLvswtpWUdubRjPVWWb\ndksO+YQG/eVhU3g8kcOa3CwpO1ccbXJZlOTr0xFE3NuYUUp+hbLvYEiDIfWegyTR\n4yMkOHJ6uN8p1CfiWsf0ojPdLgoiS7RktcFLDWAir9d+HtrCW93VjY71AoGABdUz\nFhPmwrjPp/Obxi37dZ9Eb9QdqR0qadwY/zAN2eKeu1wMl94RCUNJDrILd+BhuFzz\ntrAcKSNrHrXTe8rDwgz9Yn2XW5KBh/Zu9VC6qKEsKrtN6yz5uIxO5Pml0TRyQHcV\nmQpgAh6U8H/dALFG9gTK7e6tI872ZeufgEqTQRMCgYEApU64VjrK/DrHi1OTvx8E\nhxr0lamBDYuYFpNqNbw4ZRXP4bvJ98z83LZjaoZ0fBsogWyn5uJlixis7AN9UrxB\nhXYCA9nNHDPttPyI4qsRZ5si5RbXXC/7+CKsQ++xoXK/fYSdIlBwUmiTIhpKLIqf\nW8PMFXOtRz0F8QVwlpAI1Cs=\n-----END PRIVATE KEY-----\n",
+  "client_email": "ofood-admin@ofood-314711.iam.gserviceaccount.com",
+  "client_id": "110880756624530397889",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ofood-admin%40ofood-314711.iam.gserviceaccount.com"
+}
