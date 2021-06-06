@@ -19,7 +19,7 @@ public class CommonConfig {
 
     @Bean
     public FirebaseOptions getFirebaseOptions() throws IOException {
-        Resource resource = new ClassPathResource("ofood-da256-firebase-adminsdk-6hdm5-2d8f99977c.json");
+        Resource resource = new ClassPathResource("ofood-da256-firebase-adminsdk-8qw0n-7f6f6c1b16.json");
         InputStream serviceAccount = resource.getInputStream();
 
         return FirebaseOptions.builder()

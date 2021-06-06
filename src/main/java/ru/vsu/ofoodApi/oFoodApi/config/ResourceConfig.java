@@ -24,7 +24,7 @@ public class ResourceConfig {
 
     @Bean
     public Resource loadJsonKey() {
-        return new ClassPathResource("ofood-314711-c34f3cc08911.json");
+        return new ClassPathResource("c66bb495df66.json");
     }
 
     @Bean

@@ -22,12 +22,12 @@ public class GoogleStorageService {
 
     public Mono<String> createBlob( byte[] content, String typeContent) {
         String name = "Dish_" + new Date().getTime();
-        BlobId blobId = BlobId.of("images-dish", name);
+        BlobId blobId = BlobId.of("images-dishes", name);
         BlobInfo blobInfo = BlobInfo.newBuilder(blobId)
             .setContentType(typeContent)
             .build();
         return storageMono.map(storage -> storage.create(blobInfo, content)).map(
-            blob -> "https://storage.googleapis.com/images-dish/" + name
+            blob -> "https://storage.googleapis.com/images-dishes/" + name
         );
     }
 }
